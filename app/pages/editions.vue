@@ -138,7 +138,7 @@ const comparisonFeatures = [
 
           <template #footer>
             <UButton
-              to="/contact"
+              to="mailto:knowage@eng.it?subject=Knowage%20Enterprise%20Edition%20inquiry"
               icon="material-symbols:mail-outline"
               label="Contact Sales"
             />

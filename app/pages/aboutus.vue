@@ -30,66 +30,30 @@
           Contact us
         </h2>
 
-        <form
-          class="space-y-4 rounded-lg border border-gray-200 p-4 dark:border-gray-700"
-          action="mailto:knowage@eng.it"
-          method="post"
-          enctype="text/plain"
-        >
-          <div class="space-y-2">
-            <label
-              for="contact-email"
-              class="block text-sm font-medium"
-            >Email</label>
-            <input
-              id="contact-email"
-              name="email"
-              type="email"
-              autocomplete="email"
-              required
-              class="w-full rounded-md border border-gray-300 bg-white px-3 py-2 dark:border-gray-600 dark:bg-gray-900"
-              placeholder="name@example.com"
-            >
+        <div class="rounded-xl border border-gray-200 dark:border-gray-700 bg-gradient-to-br from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 p-8 flex flex-col items-center gap-5 text-center shadow-sm">
+          <div class="flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 text-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25H4.5a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5H4.5a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
           </div>
-
-          <div class="space-y-2">
-            <label
-              for="contact-request"
-              class="block text-sm font-medium"
-            >What information do you need?</label>
-            <textarea
-              id="contact-request"
-              name="request"
-              required
-              rows="4"
-              class="w-full rounded-md border border-gray-300 bg-white px-3 py-2 dark:border-gray-600 dark:bg-gray-900"
-              placeholder="Tell us what you would like to know"
-            />
+          <div class="space-y-1">
+            <p class="text-base text-gray-500 dark:text-gray-400">
+              Have a question or want to learn more? Drop us a line — we'd love to hear from you.
+            </p>
           </div>
-
-          <div class="space-y-2">
-            <label
-              for="contact-captcha"
-              class="block text-sm font-medium"
-            >Anti-spam captcha: what is 4 + 3?</label>
-            <input
-              id="contact-captcha"
-              name="captcha"
-              type="text"
-              inputmode="numeric"
-              required
-              class="w-full rounded-md border border-gray-300 bg-white px-3 py-2 dark:border-gray-600 dark:bg-gray-900"
-              placeholder="Type your answer"
-            >
-          </div>
-
-          <button
-            type="submit"
-            class="rounded-md bg-primary px-4 py-2 font-medium text-white hover:opacity-90"
+          <a
+            href="mailto:knowage@eng.it?subject=Knowage%20inquiry"
+            class="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-base font-semibold text-white shadow hover:opacity-90 transition-opacity"
           >
-            Send request
-          </button>
-        </form>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25H4.5a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5H4.5a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
+            Write to knowage@eng.it
+          </a>
+          <p class="text-xs text-gray-400 dark:text-gray-500">
+            Opens your default mail client
+          </p>
+        </div>
       </section>
     </div>
   </UPageSection>
