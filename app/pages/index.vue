@@ -110,6 +110,7 @@ const features = [
 type HeroLink = {
   label: string
   to: string
+  target?: string
   icon?: string
   color?: string
   variant?: string
@@ -125,6 +126,7 @@ const links = ref<HeroLink[]>([
   {
     label: 'Get started',
     to: 'https://knowage-suite.readthedocs.io/en/9.0/chapter_5/index.html',
+    target: '_blank',
     icon: 'material-symbols:play-circle-outline'
   },
   {
@@ -136,6 +138,7 @@ const links = ref<HeroLink[]>([
   {
     label: 'Learn more',
     to: '/features',
+    target: '_blank',
     color: 'neutral',
     variant: 'subtle',
     trailingIcon: 'material-symbols:arrow-forward'
