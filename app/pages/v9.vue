@@ -29,7 +29,7 @@
                     </p>
                     <div class="mt-4 flex items-center justify-center gap-3">
                       <UButton
-                        to="https://github.com/KnowageLabs/Knowage-Server/releases/tags/v9.0.0"
+                        to="https://github.com/KnowageLabs/Knowage-Server/releases/tag/v9.0.0"
                         target="_blank"
                         variant="subtle"
                         color="neutral"

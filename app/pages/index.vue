@@ -138,7 +138,6 @@ const links = ref<HeroLink[]>([
   {
     label: 'Learn more',
     to: '/features',
-    target: '_blank',
     color: 'neutral',
     variant: 'subtle',
     trailingIcon: 'material-symbols:arrow-forward'
