@@ -2,7 +2,7 @@
   <UPageSection>
     <div class="mx-auto max-w-4xl space-y-8">
       <p class="text-lg text-gray-700 dark:text-gray-200">
-        Knowage is the open source Business Intelligence and data analytics platform by <a href="https://www.eng.it" target="_blank" rel="noopener noreferrer" class="font-semibold underline underline-offset-2 hover:opacity-75 transition-opacity">Engineering — Ingegneria Informatica</a>, Italy's leading ICT group. We are a team of professionals committed to empowering organizations with secure, reliable and flexible analytics tools — built on open standards and driven by a deep passion for data innovation.
+        Knowage is the open source Business Intelligence and data analytics platform by <a href="https://www.eng.it" target="_blank" rel="noopener noreferrer" class="font-semibold underline underline-offset-2 hover:opacity-75 transition-opacity">Engineering Group</a>, the Digital Transformation Company, leader in Italy with a strong international presence, with around 14,000 associates, with over 80 offices spread across Europe, the United States, and South America and global delivery. Knowage is developed and supported by a team of professionals committed to empowering organizations with secure, reliable and flexible analytics tools, built on open standards and driven by a deep passion for data innovation.
       </p>
 
       <section class="space-y-4">

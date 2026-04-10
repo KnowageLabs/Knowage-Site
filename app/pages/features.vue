@@ -8,7 +8,7 @@ const mainFeatures = [
     image: '/img/features/dashboard.png',
     details: [
       'Combine data from multiple sources and datasets into a unified analysis environment',
-      'Wide range of widgets: charts, tables, pivot, text, images, filters, maps, and custom code',
+      'Wide range of widgets: charts, tables, pivot, text, images, filters, maps, KPI, scorecard and custom code',
       'Location Intelligence capabilities with multi-layered maps',
       'Support for Solr indexes to analyze both structured data and text'
     ]
@@ -17,12 +17,12 @@ const mainFeatures = [
     id: 'assistant',
     icon: 'material-symbols:smart-toy-outline',
     title: 'Virtual Assistant',
-    description: 'An intelligent, conversational interface designed to help users interact seamlessly with the KNOWAGE suite.',
+    description: 'An intelligent, conversational interface designed to help users interact seamlessly with the KNOWAGE suite and easily own customized analysis.',
     image: '/img/features/assistant.png',
     details: [
-      'Real-time support by answering questions',
+      'Real time support by answering questions',
       'Dashboard navigation assistance',
-      'Natural language processing for context-aware responses'
+      'Natural language processing for context aware responses'
     ]
   },
   {
@@ -43,39 +43,17 @@ const mainFeatures = [
     title: 'Reporting',
     description: 'Knowage reporting enables structured, customizable documents from data, supporting analysis, distribution, and decision-making.',
     details: [
-      'Creation and distribution of static reports with pixel-perfect layouts',
+      'Creation and distribution of static reports with pixel perfect layouts',
       'Reports accessed online or automatically sent via email on schedule',
       'Multiple formats: PDF, CSV, XLS, RTF, and XLSX',
       'Powerful scheduler for offline report generation'
     ]
   },
   {
-    id: 'dossier',
-    icon: 'material-symbols:folder-open-outline',
-    title: 'Automatic Dossier',
-    description: 'Compile reports into a single Word or PowerPoint document for meetings or publications.',
-    details: [
-      'Define Word or PowerPoint templates with designated placeholders',
-      'Automatically populated with reports based on execution date',
-      'Ready-to-edit draft with one click'
-    ]
-  },
-  {
-    id: 'qbe',
-    icon: 'material-symbols:search',
-    title: 'Visual Data Exploration (QbE)',
-    description: 'Query by Example enables intuitive and unrestricted data exploration within the data space.',
-    details: [
-      'Empowers context-aware users to directly query data',
-      'Save query results as new datasets or store for future execution',
-      'Supports self-service and ad hoc reporting'
-    ]
-  },
-  {
     id: 'selfservice',
     icon: 'material-symbols:manage-accounts-outline',
-    title: 'Self-Service & Ad-Hoc Reporting',
-    description: 'KNOWAGE fully supports self-service data access and ad-hoc reporting, balancing user autonomy with robust security.',
+    title: 'Self Service & Ad Hoc Reporting',
+    description: 'KNOWAGE fully supports self service data access and ad hoc reporting, balancing user autonomy with robust security.',
     details: [
       'Personal Workspace to independently organize data and analyses',
       'Upload new files and design customized views',
@@ -94,14 +72,36 @@ const mainFeatures = [
     ]
   },
   {
+    id: 'dossier',
+    icon: 'material-symbols:folder-open-outline',
+    title: 'Automatic Dossier',
+    description: 'Compile reports into a single Word or PowerPoint document for meetings or publications.',
+    details: [
+      'Define Word or PowerPoint templates with designated placeholders',
+      'Automatically populated with reports based on execution date',
+      'Ready to edit draft with one click'
+    ]
+  },
+  {
+    id: 'qbe',
+    icon: 'material-symbols:search',
+    title: 'Visual Data Exploration (QbE)',
+    description: 'Query by Example enables intuitive and unrestricted data exploration within the data space.',
+    details: [
+      'Empowers context aware users to directly query data',
+      'Save query results as new datasets or store for future execution',
+      'Supports self service and ad hoc reporting'
+    ]
+  },
+  {
     id: 'multitenant',
     icon: 'material-symbols:domain',
-    title: 'Multi-tenant',
+    title: 'Multi tenant',
     description: 'KNOWAGE supports IT teams in managing complex enterprise environments with multitenancy and rich metadata structures.',
     details: [
       'Manage multiple tenants in a single installation',
       'Empowers individual users to freely explore their own data space',
-      'Bi-modal approach and fast prototyping practices'
+      'Bi modal approach and fast prototyping practices'
     ]
   }
 ]
@@ -123,7 +123,7 @@ const baseNormalized = base.endsWith('/') ? base.slice(0, -1) : base
 
     <UPageHero
       title="Product Features"
-      description="KNOWAGE provides a comprehensive set of analytical features to cover all modern Business Intelligence needs, from traditional reporting to advanced analytics and big data exploration."
+      description="KNOWAGE provides a comprehensive set of analytical features to cover all modern Business Intelligence needs, from traditional reporting to AI-powered analytics and big data exploration."
       :ui="{ container: 'flex flex-col lg:grid py-6 sm:py-8 lg:py-10 gap-16 sm:gap-y-24', title: 'text-3xl sm:text-4xl lg:text-5xl text-pretty tracking-tight font-bold text-highlighted' }"
     />
 

@@ -4,7 +4,7 @@ const allFeatures = [
   { name: 'On line static Report (Birt & JasperReport)', community: true, enterprise: true },
   { name: 'On line Dashboard, with a base set of widgets', community: true, enterprise: true },
   { name: 'On line Dashboard, includes advanced widgets: pivot tables and interactive charts', community: false, enterprise: true },
-  { name: 'On line Dashboard, Near-real time option', community: false, enterprise: true },
+  { name: 'On line Dashboard, Near real time option', community: false, enterprise: true },
   { name: 'On line Dashboard, themes management', community: false, enterprise: true },
   { name: 'Dossier: creation of WORD / PDF documents aggregating information from dashboards', community: false, enterprise: true },
   { name: 'Data Preparation', community: false, enterprise: true },
@@ -28,7 +28,7 @@ const allFeatures = [
   { name: 'Import/Export functionalities', community: false, enterprise: true },
   { name: 'Resource Manager', community: false, enterprise: true },
   { name: 'News management', community: false, enterprise: true },
-  { name: 'Multi-tenant management', community: false, enterprise: true }
+  { name: 'Multi tenant management', community: false, enterprise: true }
 ]
 
 // Place community features first, preserving their relative order
@@ -42,7 +42,7 @@ const comparisonFeatures = [
   <div>
     <UPageHero
       title="KNOWAGE Editions"
-      description="The suite is available in two versions. Choose the edition that best fits your requirements and start leveraging the power of data today."
+      description="Choose the edition that best fits your requirements and start leveraging the power of data today."
       :ui="{ container: 'flex flex-col lg:grid py-6 sm:py-8 lg:py-10 gap-16 sm:gap-y-24', title: 'text-3xl sm:text-4xl lg:text-5xl text-pretty tracking-tight font-bold text-highlighted' }"
     />
 
@@ -76,7 +76,7 @@ const comparisonFeatures = [
               We believe innovation comes when people have no barrier to study, use, test and modify things. We believe innovation comes when people join a collaborative project and let it grow and transform. We believe innovation comes when people make things with passion. We believe open source is the place where all these things can happen.
             </p>
             <p class="text-gray-600 dark:text-gray-300">
-              Coming from the long history of SpagoBI, <strong>KNOWAGE Community Edition</strong> includes all analytical capabilities and guarantees a full end-user experience.
+              Coming from the long history of SpagoBI, <strong>KNOWAGE Community Edition</strong> includes all analytical capabilities and guarantees a full end user experience.
             </p>
             <p class="text-gray-600 dark:text-gray-300">
               To become a KNOWAGE contributor, you only need to sign in on GitHub and accept the Contributor License Agreement.
@@ -132,7 +132,7 @@ const comparisonFeatures = [
               When it comes to managing large amounts of projects or customers, when reliability and rapidity are crucial, when internal assets are not sized enough to manage a whole BI project, <strong>KNOWAGE Enterprise Edition</strong> is the best choice to succeed.
             </p>
             <p class="text-gray-600 dark:text-gray-300">
-              KNOWAGE Enterprise Edition supports companies and public entities providing a fully reliable, safe and easy to manage solution. Provided and guaranteed directly from Engineering Group, the leading Italian software and services company.
+              Enhanced by Private Generative AI, Knowage represents a fully made-in-Italy Business Intelligence and data visualization solution that is secure, private, and enterprise-ready.
             </p>
           </div>
 
@@ -150,7 +150,7 @@ const comparisonFeatures = [
     <!-- Comparison Table -->
     <UPageSection
       id="comparison"
-      title="Edition Comparison"
+      title="Editions Comparison"
       description="Compare features between Community and Enterprise editions."
     >
       <UCard>
