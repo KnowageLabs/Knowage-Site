@@ -1,8 +1,8 @@
 <template>
   <div>
     <UPageHero
-      title="Knowage 9 — Major Release"
-      description="A major step forward: redesigned UX, faster engines, enhanced integrations and more."
+      title="Knowage 9.1 — Latest Release"
+      description="Discover a redesigned interface, expanded dashboard capabilities and a reworked document loading flow."
       :ui="{ container: 'flex flex-col lg:grid py-6 sm:py-8 lg:py-10 gap-16 sm:gap-y-24', title: 'text-3xl sm:text-4xl lg:text-5xl text-pretty tracking-tight font-bold text-highlighted' }"
     />
 
@@ -25,11 +25,11 @@
                       Prepare for launch
                     </h2>
                     <p class="mt-2 text-lg opacity-90">
-                      Knowage 9 is GO.
+                      Knowage 9.1 is GO.
                     </p>
                     <div class="mt-4 flex items-center justify-center gap-3">
                       <UButton
-                        to="https://github.com/KnowageLabs/Knowage-Server/releases/tag/v9.0.0"
+                        to="https://github.com/KnowageLabs/Knowage-Server/releases/tag/v9.1.0"
                         target="_blank"
                         variant="subtle"
                         color="neutral"
@@ -47,10 +47,17 @@
       </div>
     </UPageSection>
 
-    <!-- Launch Sequence section: target for the Launch Sequence CTA -->
+    <UPageSection
+      id="whats-new"
+      title="What's New in Knowage 9.1"
+      description="The latest release improves everyday analysis, dashboard authoring and administration."
+      :features="releaseHighlights"
+    />
+
+    <!-- General capabilities of the Knowage 9.x family -->
     <UPageSection
       id="launch-sequence"
-      title="Key Features"
+      title="Knowage 9.x Key Features"
       description="Discover what makes KNOWAGE 9.x the next-generation Business Intelligence platform."
     >
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -184,6 +191,39 @@ import { onMounted, nextTick, watch } from 'vue'
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
+
+const releaseHighlights = [
+  {
+    icon: 'material-symbols:devices-outline',
+    title: 'Redesigned Interface',
+    description: 'More consistent navigation and refined workflows for dashboard authoring, data exploration and administration.'
+  },
+  {
+    icon: 'material-symbols:code-blocks-outline',
+    title: 'Updated Architecture',
+    description: 'Complete separation of Dashboard and Cockpit, reworked document loading and removal of the legacy Angular library.'
+  },
+  {
+    icon: 'material-symbols:dashboard-customize-outline',
+    title: 'Expanded Dashboard Tools',
+    description: 'Dynamic widget titles, one-click locking of all widgets, richer chart interactions and dynamic table columns.'
+  },
+  {
+    icon: 'material-symbols:map-outline',
+    title: 'More Flexible Maps',
+    description: 'A visualization wizard and expanded configuration for polygons, markers, colors, filters and tooltips.'
+  },
+  {
+    icon: 'material-symbols:download-outline',
+    title: 'Exports and Scheduling',
+    description: 'Custom export filenames and worksheet names, improved PDF tables and combined PDF, XLSX and HTML scheduled outputs.'
+  },
+  {
+    icon: 'material-symbols:manage-accounts-outline',
+    title: 'User Administration',
+    description: 'Bulk import of profiled users, automated user lifecycle management and expanded role and menu configuration.'
+  }
+]
 
 const config = useRuntimeConfig()
 const base = config?.app?.baseURL ?? '/'

@@ -9,7 +9,7 @@
       <div class="relative">
         <UPageHero
           description="The open source, secure and reliable solution for advanced data analytics and business intelligence. Aggregate data from heterogeneous systems, visualize insights on any device through charts, maps, KPIs and interactive dashboards, and make truly data driven decisions."
-          headline="New release 9.0"
+          headline="New release 9.1"
           :links="links as any"
         >
           <template #title>
@@ -125,12 +125,12 @@ const bgUrl = `${baseNormalized}/img/home/background-homepage.png`
 const links = ref<HeroLink[]>([
   {
     label: 'Get started',
-    to: 'https://knowage-suite.readthedocs.io/en/9.0/chapter_5/index.html',
+    to: 'https://knowage-suite.readthedocs.io/en/9.1/chapter_5/index.html',
     target: '_blank',
     icon: 'material-symbols:play-circle-outline'
   },
   {
-    label: 'Release 9',
+    label: 'Release 9.1',
     to: '/v9',
     color: 'primary',
     icon: 'material-symbols:rocket-launch-outline'

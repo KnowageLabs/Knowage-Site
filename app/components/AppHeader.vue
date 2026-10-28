@@ -1,6 +1,10 @@
 <script setup lang="ts">
 const items = computed(() => [
   {
+    label: 'Release 9.1',
+    to: '/v9'
+  },
+  {
     label: 'Features',
     to: '/features'
   },

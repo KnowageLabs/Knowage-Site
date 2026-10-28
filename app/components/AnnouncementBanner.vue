@@ -3,7 +3,7 @@
     v-if="visible"
     class="bg-gradient-to-r from-primary-600 to-primary-500 text-white"
     role="region"
-    aria-label="Knowage 9 announcement"
+    aria-label="Knowage 9.1 announcement"
   >
     <div class="container mx-auto px-4 py-3 flex items-center justify-between gap-4">
       <div class="flex items-center gap-3">
@@ -20,10 +20,10 @@
         </svg>
         <div>
           <p class="font-semibold">
-            Knowage 9 is out — major release
+            Knowage 9.1 is out
           </p>
           <p class="text-sm opacity-90">
-            Faster queries, modern UI, improved integrations. Check what's new.
+            Redesigned interface, expanded dashboards and improved exports. Check what's new.
           </p>
         </div>
       </div>
@@ -63,7 +63,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 
-const KEY = 'announcement_v9_dismissed'
+const KEY = 'announcement_v9_1_dismissed'
 const visible = ref(true)
 
 onMounted(() => {

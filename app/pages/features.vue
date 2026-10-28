@@ -223,7 +223,7 @@ const baseNormalized = base.endsWith('/') ? base.slice(0, -1) : base
     >
       <div class="flex justify-center gap-4">
         <UButton
-          to="https://knowage-suite.readthedocs.io/en/9.0/chapter_5/index.html"
+          to="https://knowage-suite.readthedocs.io/en/9.1/chapter_5/index.html"
           target="_blank"
           size="xl"
           icon="material-symbols:play-circle-outline"
