@@ -24,9 +24,11 @@ const offices = [
   { name: 'Belgrade', country: 'Serbia', lat: 44.8176, lng: 20.4569 }
 ]
 
+const cartoApiKey = 'cb1_3n7o_2_da4fc935fadd6a578e5fb118'
+
 const tileUrls = {
-  light: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
-  dark: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
+  light: `https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=${cartoApiKey}`,
+  dark: `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=${cartoApiKey}`
 }
 
 function getTileUrl() {
